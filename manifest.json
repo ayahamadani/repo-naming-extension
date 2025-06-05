@@ -4,7 +4,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "name.html",
-    "default_icon": "repo-naming-icon.png"
+    "default_popup": "html/name.html",
+    "default_icon": "assets/repo-naming-icon.png"
   }
 }

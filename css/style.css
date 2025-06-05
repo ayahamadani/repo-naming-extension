@@ -1,6 +1,6 @@
 /* Background */
 body {
-    background: #fceff9;
+    background: #bf5a3b;
     font-family: 'Comic Sans MS', 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -10,7 +10,6 @@ body {
 
 /* Container */
 #parent-container {
-    background: #fff0f5;
     padding: 30px 40px;
     border-radius: 20px;
     text-align: center;
@@ -21,7 +20,6 @@ body {
 }
 
 #first-container {
-    background: #fff0f5;
     padding: 10px 20px;
     border-radius: 20px;
     text-align: center;
@@ -31,32 +29,28 @@ body {
 
 #second-container {
     display: flex;
-    background: #fff0f5;
     justify-content: center;
     align-items: center;
 }
 
 /* Input */
 input[type="text"] {
-    padding: 12px 15px;
+    font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+    padding: 6px 15px;
     width: 250px;
-    border: 2px solid #ffb6c1;
+    border: 2px solid #0366c7;
     border-radius: 12px;
-    background-color: #fffafc;
+    background-color: white;
     font-size: 16px;
     outline: none;
     margin-right: 10px;
+    color: #d10600;
     transition: 0.3s;
-}
-
-input[type="text"]:focus {
-    border-color: #ff69b4;
-    background-color: #fff0f5;
 }
 
 /* Buttons */
 #name-button {
-    background-color: #ffb6c1;
+    background-color: #0366c7;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -72,9 +66,9 @@ button:hover {
 
 /* Output Text */
 h3 {
-    color: #d87093;
+    color: #d10600;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
     word-break: break-word;
     width: 250px;
@@ -91,7 +85,7 @@ h3 {
 
 /* Specific Styling */
 #copy-button {
-    background-color: #ffb6c1;
+    background-color: #0366c7;
     color: white;
     border: none;
     border-radius: 12px;
@@ -104,5 +98,19 @@ h3 {
 }
 
 #copy-button:hover {
-    background-color: #ff69b4;
+    background-color: rgb(25, 74, 124);
+}
+
+
+#name-input::placeholder {
+    color: #b18583;              
+    font-style: italic;      
+    font-weight: normal;     
+    opacity: 1;            
+    font-size: 14px;       
+    font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+}
+
+img {
+    width: 30em;
 }

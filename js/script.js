@@ -15,6 +15,6 @@ nameButton.addEventListener("click", () => {
 
 
 copyButton.addEventListener('click', function () {
-    const outputText = document.getElementById('naming-output').textContent;
+    const outputText = namingOutput.textContent;
     navigator.clipboard.writeText(outputText);
 });
