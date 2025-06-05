@@ -1,0 +1,108 @@
+/* Background */
+body {
+    background: #fceff9;
+    font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 10em;
+}
+
+/* Container */
+#parent-container {
+    background: #fff0f5;
+    padding: 30px 40px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+#first-container {
+    background: #fff0f5;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#second-container {
+    display: flex;
+    background: #fff0f5;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input */
+input[type="text"] {
+    padding: 12px 15px;
+    width: 250px;
+    border: 2px solid #ffb6c1;
+    border-radius: 12px;
+    background-color: #fffafc;
+    font-size: 16px;
+    outline: none;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #ff69b4;
+    background-color: #fff0f5;
+}
+
+/* Buttons */
+#name-button {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff69b4;
+}
+
+/* Output Text */
+h3 {
+    color: #d87093;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    word-break: break-word;
+    width: 250px;
+    white-space: nowrap;       
+    overflow: hidden;           
+    text-overflow: ellipsis;
+    text-align: start;
+    background: white;
+    padding: 0.3em 0.5em;
+    margin-right: 0.5em;
+    border-radius: 10px;
+    display: none;
+}
+
+/* Specific Styling */
+#copy-button {
+    background-color: #ffb6c1;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    display: none;
+    padding: 0.5em 1.5em;
+    height: min-content;
+}
+
+#copy-button:hover {
+    background-color: #ff69b4;
+}
